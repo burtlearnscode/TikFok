@@ -1,0 +1,23 @@
+# .gitignore
+
+# --- Node.js ---
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# --- React Native / General ---
+*.log
+*.lock
+
+# iOS build artifacts
+ios/build/
+ios/Pods/
+
+# Android build artifacts
+android/
+android/.gradle/
+android/app/build/
+android/app/.cxx/
+
+# --- Others you want to ignore ---
+*.env
